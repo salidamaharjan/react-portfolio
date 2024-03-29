@@ -1,14 +1,11 @@
-
+import NavBar from "./components/NavBar";
 
 function App() {
-
   return (
     <>
-      <div>
-       React Portfolio
-      </div>
+      <NavBar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
