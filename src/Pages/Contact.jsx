@@ -5,7 +5,7 @@ import Textarea from "../components/Textarea";
 export default function Contact() {
   return (
     <div className="flex justify-center bg-gray-300">
-      <form className="flex flex-col gap-2 p-3 max-w-md flex-1">
+      <form className="flex flex-col gap-2 pt-8 max-w-md flex-1">
         <h2 className="pt-6 font-bold text-2xl">Contact</h2>
         <Label className="flex flex-col gap-2">
           Name <Input type={"text"} />
