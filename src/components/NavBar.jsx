@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <nav>
@@ -12,4 +13,12 @@ export default function NavBar() {
       </ul>
     </nav>
   );
+}
+
+function NavItem ({to, children}) {
+  return (
+    <li className="hover:underline font-bold">
+      <Link to={to}> {children} </Link>
+    </li>
+  )
 }
