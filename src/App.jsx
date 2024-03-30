@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-gray-300 h-[100dvh] flex flex-col">
+    <div className="bg-gray-400 h-[100dvh] flex flex-col">
       <NavBar />
       <main className="flex-1">
         <Outlet />

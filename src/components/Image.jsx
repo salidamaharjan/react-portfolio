@@ -1,6 +1,6 @@
-export default function Image({src, alt}){
+export default function Image({src, alt ,className}){
     return <img
-    className="w-full"
+    className={`w-full ${className}`}
     src={src}
     alt={`${alt}`}
   />
