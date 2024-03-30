@@ -1,20 +1,25 @@
-import Tag from "../components/Tag";
 import foodAndRecipe from "../assets/images/foodAndRecipe.png";
-import Image from "../components/Image";
-import Description from "../components/Description";
+import expensesTracker from "../assets/images/expensesTracker.png";
+
+import Cards from "../components/Cards";
 export default function Portfolio() {
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       <a href="https://salidamaharjan.github.io/food-and-recipe/">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
-          <Image src={foodAndRecipe} alt="Food and Recipes App"/>
-          <Description>Food and Recipes App</Description>
-          <div className="px-6 pt-4 pb-2">
-            <Tag>#Javascript, CSS, HTML</Tag>
-            <Tag>#Bulma</Tag>
-            <Tag>#Edamam</Tag>
-          </div>
-        </div>
+        <Cards
+          src={foodAndRecipe}
+          description={`Food and Recipes App`}
+          alt={"Food and Recipes App"}
+          tags={["#HTML, CSS, JavaScript", "#BULMA", '#EDAMAM']}
+        />
+      </a>
+      <a href="https://github.com/salidamaharjan/expenses-tracker">
+        <Cards
+          src={expensesTracker}
+          description={`Expenses Tracker App`}
+          alt={"Expenses Tracker App"}
+          tags={["#HTML, CSS, JavaScript", "#Chart.JS", "BULMA"]}
+        />
       </a>
     </div>
   );
