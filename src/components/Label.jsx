@@ -1,6 +1,5 @@
-export default function Label({ labelName, htmlFor }) {
-  return <> <label htmlFor={htmlFor}>{labelName}
+export default function Label({ children}) {
+  return <> <label>{children}
   </label>
-  <input className="border-2 border-gray-500"type="text"/>
   </>
 }
