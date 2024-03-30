@@ -14,13 +14,13 @@ function App() {
       <NavBar />
       <Outlet />
       <Footer className="gap-2 flex justify-center">
-        <a href="">
+        <a href="https://www.linkedin.com/in/salida-maharjan-6381b9173/">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="">
+        <a href="https://twitter.com/?lang=en">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="">
+        <a href="https://github.com/salidamaharjan">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </Footer>
