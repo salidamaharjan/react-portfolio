@@ -8,13 +8,13 @@ export default function Contact() {
       <form className="flex flex-col gap-2 p-3 max-w-md flex-1">
         <h2 className="pt-6 font-bold text-2xl">Contact</h2>
         <Label className="flex flex-col gap-2">
-          Name: <Input type={"text"} />
+          Name <Input type={"text"} />
         </Label>
         <Label className="flex flex-col gap-2">
-          Email Address: <Input type={"text"} />
+          Email Address <Input type={"text"} />
         </Label>
         <Label className="flex flex-col gap-2">
-          Message: <Textarea />
+          Message <Textarea />
         </Label>
         <Button className="self-start">Submit</Button>
       </form>
