@@ -2,9 +2,9 @@ import salida from "../assets/images/salida.png";
 export default function AboutMe() {
   return (
     <div className="flex justify-center">
-      <div className="flex max-w-5xl flex-col pt-8 gap-2">
+      <div className="flex max-w-5xl flex-col pt-8 gap-6">
         <h2>About Me</h2>
-        <img className="w-[150px] h-[150px]" src={salida} alt="ImageImage" />
+        <img className="w-[150px] h-[150px] rounded-full" src={salida} alt="ImageImage" />
         <p>
           Welcome to my portfolio! As a full stack developer, I offer a unique
           perspective that merges technical proficiency. I embarked on a coding
