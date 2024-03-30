@@ -4,11 +4,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="bg-gray-300 h-[100dvh]">
       <NavBar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 
