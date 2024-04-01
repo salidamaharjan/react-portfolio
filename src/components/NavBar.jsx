@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <nav>
-      <ul className="bg-gray-800 flex font-bold text-xl text-white flex-row justify-between px-4 py-4">
+      <ul className="bg-gray-800 flex font-bold text-2xl text-white flex-row justify-between px-12 py-5">
         <NavItem to="/">Salida M</NavItem>
         <div className="flex flex-row gap-[50px]">
           <NavItem to="/about">About Me</NavItem>
