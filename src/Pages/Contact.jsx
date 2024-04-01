@@ -11,7 +11,7 @@ export default function Contact() {
           Name <Input type={"text"} />
         </Label>
         <Label className="flex flex-col gap-2">
-          Email Address <Input type={"text"} />
+          Email Address <Input type={"Email"} />
         </Label>
         <Label className="flex flex-col gap-2">
           Message <Textarea />
