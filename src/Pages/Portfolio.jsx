@@ -14,7 +14,7 @@ export default function Portfolio() {
           className="h-[100%]"
           src={foodAndRecipe}
           title={`Food and Recipes App`}
-          description={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aut eum rerum debitis soluta id harum perspiciatis quae esse adipisci, sapiente a aliquid quia, velit autem voluptatum nostrum minima possimus. `}
+          description={`This app allows users to search an ingredient, receive the nutrition information and recipes. Users can save recipes to their favorites.`}
           alt={"Food and Recipes App"}
           tags={["#HTML, CSS, JavaScript", "#BULMA", "Shields.io", "#EDAMAM"]}
         />
@@ -24,12 +24,12 @@ export default function Portfolio() {
           className="h-[100%]"
           src={expensesTracker}
           title={`Expenses Tracker App `}
-          description={` Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, expedita voluptatum facilis quo aliquid soluta illum laborum nihil ipsa voluptatibus repellendus, facere quasi quos blanditiis beatae ipsum cumque voluptas dolor!`}
+          description={`This app allows the user to add the expenses and track it. The expenses trend can be seen in the line graph and pie chart.`}
           alt={"Expenses Tracker App"}
           tags={[
             "#HTML, CSS, JavaScript",
             "#Chart.JS",
-            "#Handlebars.js",
+            "#Handlebars.JS",
             "#BULMA", "#Heroku"
           ]}
         />
@@ -40,7 +40,7 @@ export default function Portfolio() {
           src={weatherDashboard}
           title={`Weather Dashboard App`}
           description={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, expedita voluptatum facilis quo aliquid soluta illum laborum nihil ipsa voluptatibus repellendus, facere quasi quos blanditiis beatae ipsum cumque voluptas dolor!"
+            "This app shows the weather for the current day and upto next 5 days. Data is retrieved from open weather API."
           }
           alt={"Weather Dashboard App"}
           tags={["#BULMA", "#Weather API", "#Geocoder API"]}
@@ -52,7 +52,7 @@ export default function Portfolio() {
           src={textEditor}
           title={`PWA Text Editor`}
           description={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, expedita voluptatum facilis quo aliquid soluta illum laborum nihil ipsa voluptatibus repellendus, facere quasi quos blanditiis beatae ipsum cumque voluptas dolor!"
+            "This app can be used offline and is downloadable. User can add text, edit and save them."
           }
           alt={"PWA Text Editor"}
           tags={["#WebPack", "#WorkBox", "#IndexedDB"]}
@@ -64,21 +64,21 @@ export default function Portfolio() {
           src={employeeTracker}
           title={`Employee Tracker SQL`}
           description={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, expedita voluptatum facilis quo aliquid soluta illum laborum nihil ipsa voluptatibus repellendus, facere quasi quos blanditiis beatae ipsum cumque voluptas dolor!"
+            "The user can view all the employee from DB, add employee, update role, manager and view the budget stored in DB. User can delete the data as well."
           }
           alt={"Employee Tracker SQL"}
-          tags={["#MySQL2", "#Inquirer", "#Node.js"]}
+          tags={["#MySQL2", "#Inquirer", "#Node.JS"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/employee-tracker-sql">
+      <a href="https://github.com/salidamaharjan/note-taker-express-js">
         <Cards
           className="h-[100%]"
           src={noteTaker}
-          title={`Note Take Express.js`}
+          title={`Note Taker Express.JS`}
           description={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, expedita voluptatum facilis quo aliquid soluta illum laborum nihil ipsa voluptatibus repellendus, facere quasi quos blanditiis beatae ipsum cumque voluptas dolor!"
+            "The user can use this app to create a note, edit, delete and save according to work plan."
           }
-          alt={"Note Take Express.js"}
+          alt={"Note Taker Express.js"}
           tags={["#Express.js", "#Node.js", "#Heroku"]}
         />
       </a>
