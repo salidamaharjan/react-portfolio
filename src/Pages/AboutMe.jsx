@@ -3,7 +3,7 @@ export default function AboutMe() {
   return (
     <div className="flex justify-center">
       <div className="flex max-w-5xl flex-col pt-8 gap-6">
-        <h2>About Me</h2>
+        <h2 className="font-bold text-2xl">About Me</h2>
         <img className="w-[150px] h-[150px] rounded-full" src={salida} alt="ImageImage" />
         <p>
           Welcome to my portfolio! As a full stack developer, I offer a unique
