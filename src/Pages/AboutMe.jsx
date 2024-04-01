@@ -21,25 +21,25 @@ export default function AboutMe() {
         <div>
           <div className="text-2xl font-bold"> Skills</div>
           <ul className="text-xl">
-            <li>Proficient in HTML, JavaScript, CSS</li>
+            <li>Proficient in HTML, JavaScript, CSS.</li>
             <li>
               Experience with frameworks/libraries such as React.js, Vue.js,
-              BULMA, TailWind, Chart.js
+              BULMA, TailWind, Chart.js.
             </li>
             <li>
-              Familiar with backend development using Node.js and Express.js
-            </li>
-            <li>
-              Knowledge of database management systems including MongoDB and
-              MySQL
+              Familiar with backend development using Node.js and Express.js.
             </li>
             <li>
               Knowledge of database management systems including MongoDB and
-              MySQL
+              MySQL.
             </li>
             <li>
               Knowledge of database management systems including MongoDB and
-              MySQL
+              MySQL.
+            </li>
+            <li>
+              Knowledge of database management systems including MongoDB and
+              MySQL.
             </li>
           </ul>
         </div>

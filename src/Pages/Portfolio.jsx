@@ -40,7 +40,7 @@ export default function Portfolio() {
           src={weatherDashboard}
           title={`Weather Dashboard App`}
           description={
-            "This app shows the weather for the current day and upto next 5 days. Data is retrieved from open weather API."
+            "This app shows the weather for the current day and up to next 5 days. Data is retrieved from open weather API."
           }
           alt={"Weather Dashboard App"}
           tags={["#BULMA", "#Weather API", "#Geocoder API"]}
