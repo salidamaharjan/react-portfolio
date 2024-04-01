@@ -8,7 +8,7 @@ import noteTaker from "../assets/images/noteTaker.png";
 import Cards from "../components/Cards";
 export default function Portfolio() {
   return (
-    <div className="grid grid-cols-3 gap-8 p-10">
+    <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 p-10">
       <a href="https://github.com/salidamaharjan/food-and-recipe">
         <Cards
           className="h-[100%]"
@@ -30,7 +30,8 @@ export default function Portfolio() {
             "#HTML, CSS, JavaScript",
             "#Chart.JS",
             "#Handlebars.JS",
-            "#BULMA", "#Heroku"
+            "#BULMA",
+            "#Heroku",
           ]}
         />
       </a>

@@ -5,13 +5,13 @@ export default function NavBar() {
   const { pathname } = location;
   return (
     <nav className="bg-[url('./assets/images/backGround.png')]">
-      <ul className="flex font-bold text-2xl text-white flex-row justify-between px-12 py-6">
-        <NavItem className={pathname === "/" ? "bg-blue-500" : ""} to="/">Salida </NavItem>
-        <div className="flex flex-row gap-[30px]">
+      <ul className="flex font-bold text-2xl text-white  justify-between px-12 py-6 flex-col sm:flex-row gap-5">
+        <NavItem className={pathname === "/" ? "bg-blue-500" : ""} to="/">
+          Salida{" "}
+        </NavItem>
+        <div className="flex flex-col gap-[30px] sm:flex-row">
           <NavItem
-            className={
-              pathname === "/about" ? "bg-blue-500" : ""
-            }
+            className={pathname === "/about" ? "bg-blue-500" : ""}
             to="/about"
           >
             About Me
