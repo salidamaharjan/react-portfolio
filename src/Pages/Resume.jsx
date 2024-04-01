@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div className="flex flex-col pt-14 ml-40 gap-3">
+    <div className="flex flex-col bg-gray-300  text-w pt-14 ml-40 gap-3">
       <div className="font-bold text-2xl">Resume</div>
       <div>Download my Resume</div>
       <div className="flex flex-col gap-4">

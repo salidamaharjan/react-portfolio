@@ -14,7 +14,7 @@ export default function Cards({
   return (
     <>
       <div
-        className={`max-w-sm bg-gray-300 rounded overflow-hidden shadow-lg ${className}`}
+        className={`max-w-sm border border-slate-500 bg-gray-400 rounded overflow-hidden shadow-lg ${className}`}
       >
         <Image className="min-h-52 max-h-52"src={src} alt={`${alt}`} />
         <div className="px-6 py-4">
