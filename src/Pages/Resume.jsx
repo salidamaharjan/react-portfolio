@@ -4,9 +4,9 @@ export default function Resume() {
       <div className="font-bold text-2xl">Resume</div>
       <div>
         Download{" "}
-        <span className="underline underline-offset-4 hover:text-blue-500">
+        <a href="https://github.com/salidamaharjan/react-portfolio/blob/main/src/assets/ReactResume.pdf?raw=true" target="_blank" className="underline underline-offset-4 hover:text-blue-500">
           Resume
-        </span>
+        </a>
       </div>
     </div>
   );
