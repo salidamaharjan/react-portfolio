@@ -6,11 +6,11 @@ export default function NavBar() {
   return (
     <nav className="bg-[url('./assets/images/backGround.png')]">
       <ul className="flex font-bold text-2xl text-white flex-row justify-between px-12 py-6">
-        <NavItem to="/">Salida M </NavItem>
+        <NavItem className={pathname === "/" ? "bg-blue-500" : ""} to="/">Salida </NavItem>
         <div className="flex flex-row gap-[30px]">
           <NavItem
             className={
-              pathname === "/about" || pathname === "/" ? "bg-blue-500" : ""
+              pathname === "/about" ? "bg-blue-500" : ""
             }
             to="/about"
           >
