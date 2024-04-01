@@ -9,7 +9,7 @@ import Cards from "../components/Cards";
 export default function Portfolio() {
   return (
     <div className="grid grid-cols-3 gap-8 p-10">
-      <a href="https://salidamaharjan.github.io/food-and-recipe/">
+      <a href="https://github.com/salidamaharjan/food-and-recipe">
         <Cards
           className="h-[100%]"
           src={foodAndRecipe}
@@ -46,7 +46,7 @@ export default function Portfolio() {
           tags={["#BULMA", "#Weather API", "#Geocoder API"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/PWA-text-editor-19/blob/main/asset/image/JATE.png">
+      <a href="https://github.com/salidamaharjan/PWA-text-editor-19">
         <Cards
           className="h-[100%]"
           src={textEditor}
