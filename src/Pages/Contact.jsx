@@ -11,45 +11,115 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState({});
 
-  function validateForm() {
-    let isValid = true;
-    const newErrors = {};
+  function validateName() {
     if (!contactData.name) {
-      newErrors.name = "Name is required";
-      isValid = false;
+      setErrors((previousState) => {
+        return {
+          ...previousState,
+          name: "Name is required",
+        };
+      });
+      return;
     }
-    if (!contactData.email) {
-      newErrors.email = "Email is required";
-      isValid = false;
-    }
-    if (!contactData.message) {
-      newErrors.message = "Message is required";
-      isValid = false;
-    }
-    setErrors(newErrors);
-    return isValid;
+    delete errors["name"];
+    setErrors(errors);
   }
 
-  function handleBlur(){
-    validateForm();
+  function validateMessage() {
+    if (!contactData.message) {
+      setErrors((previousState) => {
+        return {
+          ...previousState,
+          message: "Message is required!",
+        };
+      });
+      return;
+    }
+    delete errors["name"];
+    setErrors(errors);
+  }
+
+  function validateEmail() {
+    if (!contactData.email) {
+      setErrors((previousState) => {
+        return {
+          ...previousState,
+          email: "Email is required!",
+        };
+      });
+      return;
+    }
+    if(!/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/.test(contactData.email)){
+      setErrors((previousState) => {
+        return {
+          ...previousState,
+          email: "Email is invalid!",
+        };
+      });
+      return;
+    }
+    delete errors["email"];
+    setErrors(errors);
   }
 
   return (
     <div className="flex justify-center bg-gray-300">
-      <form className="flex flex-col gap-2 pt-8 max-w-md flex-1" onBlur={handleBlur}>
+      <form className="flex flex-col gap-2 pt-8 max-w-md flex-1">
         <h2 className="pt-6 font-bold text-2xl">Contact</h2>
         <Label className="flex flex-col gap-2">
-          Name <Input type={"text"} />
+          Name{" "}
+          <Input
+            onBlur={validateName}
+            value={contactData.name ?? ""}
+            onChange={(e) => {
+              setContactData((previousState) => {
+                return {
+                  ...previousState,
+                  name: e.target.value,
+                };
+              });
+            }}
+            type={"text"}
+          />
         </Label>
         <Label className="flex flex-col gap-2">
-          Email Address <Input type={"text"} />
+          Email Address{" "}
+          <Input
+            onBlur={validateEmail}
+            value={contactData.email ?? ""}
+            onChange={(e) => {
+              setContactData((previousState) => {
+                return {
+                  ...previousState,
+                  email: e.target.value,
+                };
+              });
+            }}
+            type={"text"}
+          />
         </Label>
         <Label className="flex flex-col gap-2">
-          Message <Textarea />
+          Message{" "}
+          <Textarea
+            onBlur={validateMessage}
+            value={contactData.message ?? ""}
+            onChange={(e) => {
+              setContactData((previousState) => {
+                return {
+                  ...previousState,
+                  message: e.target.value,
+                };
+              });
+            }}
+          />
         </Label>
         <Button className="self-start">Submit</Button>
 
-        <div></div>
+        <div className="text-red-600">
+          {Object.entries(errors).map(([key, value]) => {
+            return <div key={key}>{value}</div>;
+          })}
+        </div>
       </form>
     </div>
   );
