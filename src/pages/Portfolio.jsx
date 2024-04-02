@@ -9,7 +9,7 @@ import Cards from "../components/Cards";
 export default function Portfolio() {
   return (
     <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 p-10">
-      <a href="https://github.com/salidamaharjan/food-and-recipe">
+      <a href="https://github.com/salidamaharjan/food-and-recipe" target="_blank">
         <Cards
           className="h-[100%]"
           src={foodAndRecipe}
@@ -19,7 +19,7 @@ export default function Portfolio() {
           tags={["#HTML, CSS, JavaScript", "#BULMA", "Shields.io", "#EDAMAM"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/expenses-tracker">
+      <a href="https://github.com/salidamaharjan/expenses-tracker" target="_blank">
         <Cards
           className="h-[100%]"
           src={expensesTracker}
@@ -35,7 +35,7 @@ export default function Portfolio() {
           ]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/weather-dashboard-challenge-06?tab=readme-ov-file">
+      <a href="https://github.com/salidamaharjan/weather-dashboard-challenge-06?tab=readme-ov-file" target="_blank">
         <Cards
           className="h-[100%]"
           src={weatherDashboard}
@@ -47,7 +47,7 @@ export default function Portfolio() {
           tags={["#BULMA", "#Weather API", "#Geocoder API"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/PWA-text-editor-19">
+      <a href="https://github.com/salidamaharjan/PWA-text-editor-19" target="_blank">
         <Cards
           className="h-[100%]"
           src={textEditor}
@@ -59,7 +59,7 @@ export default function Portfolio() {
           tags={["#WebPack", "#WorkBox", "#IndexedDB"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/employee-tracker-sql">
+      <a href="https://github.com/salidamaharjan/employee-tracker-sql" target="_blank">
         <Cards
           className="h-[100%]"
           src={employeeTracker}
@@ -71,7 +71,7 @@ export default function Portfolio() {
           tags={["#MySQL2", "#Inquirer", "#Node.JS"]}
         />
       </a>
-      <a href="https://github.com/salidamaharjan/note-taker-express-js">
+      <a href="https://github.com/salidamaharjan/note-taker-express-js" target="_blank">
         <Cards
           className="h-[100%]"
           src={noteTaker}

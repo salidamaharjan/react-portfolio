@@ -1,5 +1,5 @@
 # React-Portfolio
-[Deployed Link](https://main--salidaportfolio.netlify.app/)
+[Deployed Link](https://salidaportfolio.netlify.app/)
 
 [GitHub Repo Link](https://github.com/salidamaharjan/react-portfolio)
 
