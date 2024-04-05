@@ -50,6 +50,7 @@ export default function AboutMe() {
             <a
               className="underline underline-offset-2 hover:decoration-blue-600 hover:text-blue-600"
               href="http://localhost:5173/portfolio"
+              target="_blank"
             >
               Portfolio{" "}
             </a>
