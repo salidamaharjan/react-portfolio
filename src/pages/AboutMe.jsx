@@ -1,4 +1,5 @@
 import salida from "../assets/images/salida.png";
+import { Link } from "react-router-dom";
 export default function AboutMe() {
   return (
     <div className="flex justify-center min-h-[100dvh]">
@@ -47,13 +48,12 @@ export default function AboutMe() {
           <div className="text-2xl font-bold">Projects</div>
           <div className="text-xl">
             Check out my{" "}
-            <a
+            <Link
               className="underline underline-offset-2 hover:decoration-blue-600 hover:text-blue-600"
-              href="/portfolio"
-              target="_blank"
+              to="/portfolio"
             >
               Portfolio{" "}
-            </a>
+            </Link>
             and{" "}
             <a
               className="underline underline-offset-2 hover:decoration-blue-600 hover:text-blue-600"
