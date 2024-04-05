@@ -31,7 +31,7 @@ export default function Portfolio() {
             "#Chart.JS",
             "#Handlebars.JS",
             "#BULMA",
-            "#Heroku",
+            "#Heroku"
           ]}
         />
       </a>

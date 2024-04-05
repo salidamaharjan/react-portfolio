@@ -57,6 +57,7 @@ export default function AboutMe() {
             <a
               className="underline underline-offset-2 hover:decoration-blue-600 hover:text-blue-600"
               href="https://github.com/salidamaharjan"
+              target="_blank"
             >
               GitHub{" "}
             </a>
