@@ -49,7 +49,7 @@ export default function AboutMe() {
             Check out my{" "}
             <a
               className="underline underline-offset-2 hover:decoration-blue-600 hover:text-blue-600"
-              href="http://localhost:5173/portfolio"
+              href="https://main--salidaportfolio.netlify.app/portfolio"
               target="_blank"
             >
               Portfolio{" "}
